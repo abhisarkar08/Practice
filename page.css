@@ -887,7 +887,7 @@
   text-align: center;
   z-index: 0;
   position: relative;
-  overflow-y: visible;
+  overflow-y: hidden; /*this change*/
 }
 .sec1{
   transform: translateX(-1%);
@@ -1117,7 +1117,7 @@
   width: 70vw;
 }
 .one-half{
-  width: 83%;
+  width: 83%; /*notice*/
   height: 2547px;
   margin: 50px 0px 0px;
   padding: 0px 135px;
@@ -1936,7 +1936,7 @@ h5{
   overflow: visible;
 }
 .stick-nav{
-  width: 100%;
+  width: 1520px;
   height: 100px;
   background-color: #fafafa;
   position: sticky;
@@ -1970,10 +1970,10 @@ h5{
   height: 32px;
 }
 .indi{
-  width: 1440px;
+  width: 1240px;
   height: 507px;
-  margin: 0px 40px;
-  padding: 32px 135px 0px;
+  margin: 0px 65px;
+  padding: 32px 65px 0px;
 }
 .tab1{
   width: 1170px;
