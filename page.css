@@ -3164,7 +3164,8 @@ h5{
   width:1170px;
   height: 338px;
   margin-top: 80px;
-  box-shadow: 5px 5px 4px gray;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
 }
 .lefft{
   display: flex;
@@ -3191,6 +3192,253 @@ h5{
   border-radius: 10px;
   box-shadow: none;
   margin-left: 20px;
+  font-size: 13px;
+  font-weight: 1000;
+  border: none;
+}
+/* for awards*/
+.tifin{
+  width: 1170px;
+  height: auto;
+  margin: 80px 72px 0px;
+  padding: 0px 135px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+.tifin1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.arrows{
+  display: flex;
+  gap: 20px;
+}
+.arrow {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 20px;
+}
+.tifin1 h2 {
+  font-size: 56px;
+  color: #314259;
+}
+input[type="radio"] {
+  display: none;
+}
+.tifin2 {
+  display: flex;
+  width: 200%;
+  transition: transform 2s ease-in-out;
+  overflow: hidden;
+}
+.wrap{
+  width: 1170px;
+  overflow: hidden;
+}
+
+.set1 {
+  width: 1170px;
+  height: 448px;
+  padding: 40px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.award {
+  width: 261px;
+  height: 302px;
+  background-color: white;
+  font-size: 16px;
+  padding: 0px 0px 16px;
+  margin: 40px 16px 96px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.award h4 {
+  width: 245px;
+  margin: 30px 8px 12px;
+  font-size: 20px;
+  color: #333;
+}
+
+.award h3 {
+  width: 241px;
+  height: 128px;
+  color: #0056ff;
+  padding: 24px 8px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 42px;
+  margin-top: 50px;
+}
+#slide2:checked ~ .tifin .tifin2 {
+  transform: translateX(-50%);
+}
+/* for review*/
+/* Main Container */
+.tifinn {
+  width: 1180px;
+  height: auto;
+  margin: 80px 72px 0px;
+  padding: 0px 135px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Header and Arrows */
+.tifinn1 {
+  width: 1170px;
+  height: 67px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tifinn1 h2 {
+  font-size: 56px;
+  color: #314259;
+}
+
+.arrowss {
+  display: flex;
+  gap: 20px;
+}
+
+.arroww {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Hide radio buttons */
+input[type="radio"] {
+  display: none;
+}
+
+/* Wrapper to fix visible area */
+.wrapp {
+  width: 1170px;
+  overflow: hidden;
+}
+
+/* Slider Container */
+.tifinn2 {
+  display: flex;
+  width: 2340px; /* 1170px * 2 slides */
+  height: 628px;
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Each Slide */
+.sett1 {
+  width: 1170px;
+  height: auto;
+  padding: 40px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Cards */
+.awardd {
+  width: 521px;
+  height: 484px;
+  background-color: white;
+  font-size: 16px;
+  padding: 0px 0px 16px;
+  margin: 40px 16px 96px;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15); /* Strong Shadow */
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.awardd .to h5 {
+  font-size: 24px;
+  padding: 16px 32px;
+  color: #333;
+}
+
+.awardd .to h5 span {
+  color: #0056ff;
+  font-size: 24px;
+}
+
+.awardd .to p {
+  padding: 0px 32px 16px;
+  color: #6b6b6b;
+  line-height: 1.5;
+}
+
+.iden {
+  padding: 0px 32px;
+}
+
+.ide {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.ims img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.fo h5 {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.fo p {
+  font-size: 14px;
+  color: #6b6b6b;
+}
+
+.k {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  color: #0056ff;
+  cursor: pointer;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.k i {
+  font-size: 14px;
+}
+
+/* Slider Movement */
+#slideo2:checked ~ .tifinn .wrapp .tifinn2 {
+  transform: translateX(-1170px);
+}
+
+#slideo1:checked ~ .tifinn .wrapp .tifinn2 {
+  transform: translateX(0);
 }
 
 
