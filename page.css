@@ -3657,12 +3657,14 @@ input[type="radio"] {
     width: 720px;
   }
 }
-@media(max-width:426px){ /*boooooooooooooooooooom*/
+/*@media(max-width:426px){ /*boooooooooooooooooooom
   .tifin{
     width: 377px;
     height: auto;
     padding: 0px 24px;
     margin: 50px 0px 0px;
+    display: flex;
+    flex-direction: column
   }
   .tifin1{
     width: 377px;
@@ -3672,7 +3674,6 @@ input[type="radio"] {
     width: 228px;
     height: 33px;
     font-size: 28px;
-    order: 1;
   }
   .set1{
     width: 377px;
@@ -3706,7 +3707,78 @@ input[type="radio"] {
     width: 377px;
     order: 2;
   }
+}*/
+@media(max-width:426px){
+  .tifin {
+    width: 377px;
+    height: auto;
+    padding: 0px 24px;
+    margin: 50px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    position: relative; /* parent relative hona chahiye for absolute positioning */
+  }
+  .tifin1 h2{
+    width: 328px;
+    height: 33px;
+    font-size: 28px;
+    text-align: left;
+  }
+
+  .tifin1 {
+    width: 377px;
+    height: 67px;
+    order: 1; /* Heading upar */
+  }
+
+  .wrap {
+    order: 2; /* Awards content */
+    width: 377px;
+  }
+  .arrows {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: 20px;
+  }
+  #boo{
+    display: none;
+  }
+  .tifin2{
+    width: 100%;
+  }
+  .tifin {
+    padding-bottom: 0px;
+  }
+  .set1{
+    width: 377px;
+    height: auto;
+    display: flex;
+
+  }
+  .arrows{
+    padding-left: 45px;
+  }
+  .arrow{
+    order: 3;
+  }
+  .award h3{
+    width: 316px;
+    height: 128px;
+  }
+  .award h4{
+    width: 300px;
+    height: 48px;
+  }
+  .award{
+    width: 316px;
+    height: 312px;
+    gap: 0px;
+  }  
 }
+
 .lastt{
   width: 1170px;
   height: auto;
