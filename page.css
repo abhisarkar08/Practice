@@ -2774,7 +2774,7 @@ h5{
   }
   .m-box, .m-boxo, .m-boxoi, .m-boxoo{
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 columns grid */
+    grid-template-columns: repeat(2, 1fr); 
     gap: 20px;
   }
   .links1,.links2,.links3,.links4,.buton,.last,.last p{
@@ -2836,7 +2836,7 @@ h5{
   }
   .m-box, .m-boxo, .m-boxoi, .m-boxoo{
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 columns grid */
+    grid-template-columns: repeat(2, 1fr); 
     gap: 20px;
   }
   .links1,.links2,.links3,.links4,.buton,.last,.last p{
@@ -2903,7 +2903,7 @@ h5{
   }
   .m-box, .m-boxo, .m-boxoi, .m-boxoo{
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 columns grid */
+    grid-template-columns: repeat(2, 1fr); 
     gap: 10px;
   }
   .links1,.links2,.links3,.links4,.buton,.last,.last p{
@@ -3584,6 +3584,41 @@ input[type="radio"] {
   transform: translateX(0);
 }
 @media(max-width:1024px){ /*boooooooooooooooooooom*/
+  .tifinn1{
+    width: 976px;
+    height: auto;
+  }
+  .tifinn2{
+    width: 300%;
+  }
+  .awardd{
+    width: 424px;
+    height: auto;
+  }
+  .tifinn1 h2{
+    width: 816px;
+    text-align: left;
+    padding-left: 100px;
+  }
+  .to{
+    width: 400px;
+    height: auto;
+  }
+  .to h5{
+    width: 350px !important;
+    font-size: 28px !important;
+  }
+  .to p{
+    width: 350px !important;
+  }
+  .sett1{
+    width: 976px;
+    height: auto;
+    transform: translateX(12%);
+  }
+  #c{
+    transform: translateX(35%);
+  }
   .tifin{
     width: 974px;
     height: auto;
@@ -3617,7 +3652,72 @@ input[type="radio"] {
     width: 1024px;
   }
 }
-@media(max-width:768px){ /*boooooooooooooooooooom*/
+@media(max-width:768px){
+  .tifinn1{
+    width: 720px;
+    height: auto;
+    transform: translateX(22%);
+  }
+  .tifinn2{
+    width: 300%;
+  }
+  .fo{
+    width: 169px;
+    height: auto;
+  }
+  .fo h5{
+    width: 167px;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .fo p{
+    font-size: 12px;
+  }
+  .ims img{
+    margin: 0px;
+  }
+  .awardd{
+    width: 300px;
+    height: auto;
+  }
+  .tifinn1 h2{
+    width: 560px;
+    text-align: left;
+    padding-left: 100px;
+    font-size: 50px;
+  }
+  .to{
+    width: 400px;
+    height: auto;
+  }
+  .to h5{
+    width: 212px !important;
+    font-size: 24px !important;
+  }
+  .to p{
+    width: 212px !important;
+    font-size: 16px !important;
+  }
+  .to h5 span{
+    font-size: 24px !important;
+  }
+  .iden{
+    width: 212px !important;
+  }
+  .k{
+    width: 212px;
+  }
+  .ide{
+    width: 212px;
+  }
+  .sett1{
+    width: 720px;
+    height: auto;
+    transform: translateX(32%);
+  }
+  #c{
+    transform: translateX(95%);
+  }
   .tifin{
     width: 720px;
     height: auto;
@@ -3657,58 +3757,85 @@ input[type="radio"] {
     width: 720px;
   }
 }
-/*@media(max-width:426px){ /*boooooooooooooooooooom
-  .tifin{
-    width: 377px;
+@media(max-width:426px){
+  .tifinn{
+    position: relative;
+    padding-bottom: 70px;
+  }
+  .tifinn1{
+    width: 477px;
     height: auto;
-    padding: 0px 24px;
-    margin: 50px 0px 0px;
-    display: flex;
-    flex-direction: column
+    transform: translateX(68%);
   }
-  .tifin1{
-    width: 377px;
-    height: 67px;
+  .arrowss{
+    position: absolute;
+    bottom: -650px;
+    padding-left: 80px;
   }
-  .tifin1 h2{
-    width: 228px;
-    height: 33px;
+  .tifinn2{
+    width: 300%;
+  }
+  .fo{
+    width: 192px;
+    height: auto;
+  }
+  .fo h5{
+    width: 160px;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .fo p{
+    font-size: 10px;
+  }
+  .ims img{
+    margin: 0px;
+  }
+  .awardd{
+    width: 324px;
+    height: auto;
+  }
+  .tifinn1 h2{
+    width: 477px;
+    text-align: left;
+    padding-left: 90px;
     font-size: 28px;
   }
-  .set1{
-    width: 377px;
+  .to{
+    width: 300px;
     height: auto;
-    display: flex;
-    justify-content: space-between;
   }
-  #boo{
+  .to h5{
+    width: 236px !important;
+    font-size: 22px !important;
+    height: auto;
+  }
+  .to p{
+    width: 232px !important;
+    font-size: 16px !important;
+  }
+  .to h5 span{
+    font-size: 22px !important;
+  }
+  .iden{
+    width: 300px !important;
+  }
+  .k{
+    width: 247px;
+  }
+  .ide{
+    width: 255px;
+  }
+  #g{
     display: none;
   }
-  .tifin2{
-    width: 100%;
+  .sett1{
+    width: 720px;
+    height: auto;
+    transform: translateX(60%);
   }
-  .arrow{
-    order: 3;
+  #c{
+    transform: translateX(120%);
   }
-  .award h3{
-    width: 316px;
-    height: 128px;
-  }
-  .award h4{
-    width: 300px;
-    height: 48px;
-  }
-  .award{
-    width: 316px;
-    height: 312px;
-    gap: 0px;
-  }  
-  .wrap{
-    width: 377px;
-    order: 2;
-  }
-}*/
-@media(max-width:426px){
   .tifin {
     width: 377px;
     height: auto;
@@ -3716,67 +3843,229 @@ input[type="radio"] {
     margin: 50px 0px 0px;
     display: flex;
     flex-direction: column;
-    position: relative; /* parent relative hona chahiye for absolute positioning */
+    position: relative; 
+    padding-bottom: 70px; 
   }
-  .tifin1 h2{
-    width: 328px;
+
+  .tifin1 h2 {
+    width: 320px;
     height: 33px;
     font-size: 28px;
     text-align: left;
+    order: 1;
+    padding-left: 20px;
   }
 
   .tifin1 {
     width: 377px;
     height: 67px;
-    order: 1; /* Heading upar */
+    order: 1;
   }
 
   .wrap {
-    order: 2; /* Awards content */
+    order: 2;
     width: 377px;
   }
-  .arrows {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-    margin-top: 20px;
-  }
-  #boo{
+
+  #boo {
     display: none;
   }
-  .tifin2{
-    width: 100%;
+
+  .tifin2 {
+    width: 200%;
   }
-  .tifin {
-    padding-bottom: 0px;
-  }
-  .set1{
+
+  .set1 {
     width: 377px;
     height: auto;
     display: flex;
+  }
 
+  .arrows {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    padding-left: 40px;
+    padding-bottom: 90px;
   }
-  .arrows{
-    padding-left: 45px;
-  }
-  .arrow{
-    order: 3;
-  }
-  .award h3{
-    width: 316px;
+
+  .award h3 {
+    width: 300px;
     height: 128px;
   }
-  .award h4{
-    width: 300px;
+
+  .award h4 {
+    width: 316px;
     height: 48px;
   }
-  .award{
+
+  .award {
     width: 316px;
     height: 312px;
     gap: 0px;
-  }  
+  }
+}
+@media(max-width:321px){
+  .tifinn{
+    padding-top: 50px;
+    position: relative;
+    padding-bottom: 70px;
+  }
+  .tifinn1{
+    width: 372px;
+    height: auto;
+    transform: translateX(96%);
+    white-space:normal;
+  }
+  .arrowss{
+    position: absolute;
+    bottom: -650px;
+    padding-left: 80px;
+  }
+  .tifinn2{
+    width: 300%;
+  }
+  .fo{
+    width: 168px;
+    height: auto;
+  }
+  .fo h5{
+    width: 125px;
+    font-weight: 600;
+    font-size: 12px;
+    height: 20px;
+  }
+  .fo p{
+    font-size: 9px;
+  }
+  .ims img{
+    margin: 0px;
+    width: 40px;
+    height: 40px;
+  }
+  .awardd{
+    width: 227px;
+    height: auto;
+  }
+  .tifinn1 h2{
+    width: 272px;
+    text-align: left;
+    padding-left: 90px;
+    font-size: 25px;
+  }
+  .to{
+    width: 203px;
+    height: auto;
+  }
+  .to h5{
+    width: 143px !important;
+    font-size: 18px !important;
+    height: auto;
+  }
+  .to p{
+    width: 143px !important;
+    font-size: 14px !important;
+  }
+  .to h5 span{
+    font-size: 18px !important;
+  }
+  .iden{
+    width: 300px !important;
+  }
+  .k{
+    width: 195px;
+    font-size: 12px;
+  }
+  .ide{
+    width: 255px;
+    padding-top:20px ;
+  }
+  #g{
+    display: none;
+  }
+  .sett1{
+    width: 720px;
+    height: auto;
+    transform: translateX(65%);
+  }
+  #c{
+    transform: translateX(130%);
+  }
+  .tifin {
+    width: 272px;
+    height: auto;
+    padding: 0px 24px;
+    margin: 50px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    position: relative; 
+    padding-bottom: 70px; 
+  }
+
+  .tifin1 h2 {
+    width: 328px;
+    height: 33px;
+    font-size: 28px;
+    text-align: left;
+    order: 1;
+    padding-left: 20px;
+  }
+
+  .tifin1 {
+    width: 272px;
+    height: 67px;
+    order: 1;
+  }
+
+  .wrap {
+    order: 2;
+    width: 272px;
+  }
+
+  #boo {
+    display: none;
+  }
+
+  .tifin2 {
+    width: 200%;
+  }
+
+  .set1 {
+    width: 272px;
+    height: auto;
+    display: flex;
+  }
+
+  .arrows {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    padding-left: 40px;
+    padding-bottom: 90px;
+  }
+
+  .award h3 {
+    width: 203px;
+    height: 128px;
+    font-size: 16px;
+  }
+
+  .award h4 {
+    width: 219px;
+    height: 48px;
+  }
+
+  .award {
+    width: 219px;
+    height: 312px;
+    gap: 0px;
+  }
 }
 
 .lastt{
