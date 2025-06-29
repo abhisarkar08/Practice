@@ -4740,9 +4740,457 @@ input[type="radio"] {
 .see h5{
   font-size: 16px;
 }
+@media(max-width:1024px){
+  .finish{
+    width: 1024px;
+    height: auto;
+    font-size: 16px;
+    background-color: #f5f5f5;
+    padding: 96px 0px;
+  }
+  .ktmm{
+    width: 764px;
+    height: auto;
+    margin: 0px 40px;
+    padding: 0px 130px;
+    display: flex;
+    flex-direction: column;
+  }
+  .hom{
+    width: 976px;
+    height: auto;
+    transform: translateX(-15%);
+  }
+  .hom h2{
+    width: 976px;
+    height: auto;
+    font-size: 56px;
+  }
+  .hom p{
+    width: 976px;
+    height: auto;
+    padding: 32px 0px 0px;
+    font-size: 20px;
+    color: #9092A3;
+  }
+  .divi{
+    display: flex;
+    flex-direction: row;
+    width: 813px;
+    height: auto;
+    padding-top: 64px;
+    transform: translateX(-10%);
+  }
+  .eka, .duaa{
+    width: 406px;
+    height: auto;
+  }
+  .eka h3, .duaa h3{
+    width: 406px;
+    height: auto;
+    font-size: 32px;
+    text-align: left;
+  }
+  .ekno{
+    display: flex;
+    flex-direction: row;
+    width: 406px;
+    height: 134px;
+    padding: 24px 16px 0px;
+    font-size: 16px;
+    text-align: left;
+  }
+  .duino{
+    width: 62px;
+    height: 110px;
+  }
+  .duino img{
+    width: 30px;
+    height: 30px;
+  }
+  .teno{
+    width: 264px;
+    height: 134px;
+    padding: 0px 24px;
+  }
+  .teno h5{
+    width: 264px;
+    height: auto;
+    font-size: 20px;
+  }
+  .teno p{
+    width: 264px;
+    height: 80px;
+    font-size: 16px;
+    color: #9092A3;
+    padding: 8px 0px 0px;
+  }
+  .see{
+    width: 144px;
+    height: 24px;
+    margin: 40px 0px 0px;
+    font-size: 16px;
+    display: flex;
+    color: #0073ff;
+    cursor: pointer;
+  }
+  .see h5{
+    font-size: 16px;
+  }
+}
+@media(max-width:768px){
+  .finish{
+    width: 768px;
+    height: auto;
+    font-size: 16px;
+    background-color: #f5f5f5;
+    padding: 96px 0px;
+  }
+  .ktmm{
+    width: 768px;
+    height: auto;
+    margin: 0px 40px;
+    padding: 0px 130px;
+    display: flex;
+    flex-direction: column;
+  }
+  .hom{
+    width: 720px;
+    height: auto;
+    transform: translateX(-15%);
+  }
+  .hom h2{
+    width: 720px;
+    height: auto;
+    font-size: 56px;
+  }
+  .hom p{
+    width: 600px;
+    height: auto;
+    padding: 32px 0px 0px;
+    font-size: 20px;
+    color: #9092A3;
+  }
+  .divi{
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    height: auto;
+    padding-top: 64px;
+    transform: translateX(-10%);
+  }
+  .eka, .duaa{
+    width: 300px;
+    height: auto;
+  }
+  .eka h3, .duaa h3{
+    width: 300px;
+    height: auto;
+    font-size: 32px;
+    text-align: left;
+  }
+  .ekno{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 164px;
+    padding: 24px 16px 0px;
+    font-size: 16px;
+    text-align: left;
+  }
+  .duino{
+    width: 44px;
+    height: 140px;
+  }
+  .duino img{
+    width: 30px;
+    height: 30px;
+  }
+  .teno{
+    width: 223px;
+    height: 140px;
+    padding: 0px 24px;
+  }
+  .teno h5{
+    width: 175px;
+    height: auto;
+    font-size: 20px;
+  }
+  .teno p{
+    width: 175px;
+    height: 80px;
+    font-size: 16px;
+    color: #9092A3;
+    padding: 8px 0px 0px;
+  }
+  .see{
+    width: 300px;
+    height: 24px;
+    margin: 40px 0px 0px;
+    font-size: 16px;
+    display: flex;
+    color: #0073ff;
+    cursor: pointer;
+  }
+  .see h5{
+    font-size: 16px;
+  }
 
-
-
+  .bom p{
+    width: 440px;
+    height: 90px;
+    transform: translateX(-5%);
+  }
+  .bom h2{
+    width: 720px;
+    height: auto;
+  }
+  .bom{
+    width: 720px;
+    height: auto;
+    transform: translateX(-18%);
+  }
+  .com{
+    width: 468px;
+    height: auto;
+  }
+}
+@media(max-width:426px){
+  .finish{
+    width: 425px;
+    height: auto;
+    font-size: 16px;
+    background-color: #f5f5f5;
+    padding: 96px 0px;
+  }
+  .ktmm{
+    width: 375px;
+    height: auto;
+    margin: 0px;
+    padding: 0px 24px;
+    display: flex;
+    flex-direction: column;
+  }
+  .hom{
+    width: 337px;
+    height: auto;
+    transform: translateX(7%);
+  }
+  .hom h2{
+    width: 337px;
+    height: auto;
+    font-size: 28px;
+  }
+  .hom p{
+    width: 337px;
+    height: auto;
+    padding: 32px 0px 0px;
+    font-size: 16px;
+    color: #9092A3;
+  }
+  .divi{
+    display: flex;
+    flex-direction: column;
+    width: 337px;
+    height: auto;
+    padding-top: 64px;
+    transform: translateX(3%);
+  }
+  .eka, .duaa{
+    width: 337px;
+    height: auto;
+  }
+  .eka h3, .duaa h3{
+    width: 337px;
+    height: auto;
+    font-size: 24px;
+    text-align: left;
+  }
+  .ekno{
+    display: flex;
+    flex-direction: row;
+    width: 337px;
+    height: 152px;
+    padding: 24px 16px 0px;
+    font-size: 16px;
+    text-align: left;
+  }
+  .duino{
+    width: 62px;
+    height: 128px;
+  }
+  .duino img{
+    width: 30px;
+    height: 30px;
+  }
+  .teno{
+    width: 314px;
+    height: 128px;
+    padding: 0px 24px;
+  }
+  .teno h5{
+    width: 290px;
+    height: auto;
+    font-size: 16px;
+  }
+  .teno p{
+    width: 290px;
+    height: 104px;
+    font-size: 16px;
+    color: #9092A3;
+    padding: 8px 0px 0px;
+  }
+  .see{
+    width: 377px;
+    height: 24px;
+    margin: 40px 0px 0px;
+    font-size: 16px;
+    display: flex;
+    color: #0073ff;
+    cursor: pointer;
+  }
+  .see h5{
+    font-size: 16px;
+  }
+  .bom p{
+    width: 337px;
+    height: 72px;
+    transform: translateX(-25%);
+    font-size: 16px;
+  }
+  .bom h2{
+    width: 337px;
+    height: auto;
+    font-size: 28px;
+  }
+  .bom{
+    width: 337px;
+    height: auto;
+    transform: translateX(10%);
+  }
+  .com{
+    width: 425px;
+    height: auto;
+  }
+}
+@media(max-width:321px){
+  .finish{
+    width: 320px;
+    height: auto;
+    font-size: 16px;
+    background-color: #f5f5f5;
+    padding: 64px 0px;
+  }
+  .ktmm{
+    width: 320px;
+    height: auto;
+    margin: 0px;
+    padding: 0px 24px;
+    display: flex;
+    flex-direction: column;
+  }
+  .hom{
+    width: 272px;
+    height: auto;
+    transform: translateX(0%);
+  }
+  .hom h2{
+    width: 272px;
+    height: auto;
+    font-size: 28px;
+  }
+  .hom p{
+    width: 272px;
+    height: auto;
+    padding: 32px 0px 0px;
+    font-size: 16px;
+    color: #9092A3;
+  }
+  .divi{
+    display: flex;
+    flex-direction: column;
+    width: 272px;
+    height: auto;
+    padding-top: 64px;
+    transform: translateX(3%);
+  }
+  .eka, .duaa{
+    width: 272px;
+    height: auto;
+  }
+  .eka h3, .duaa h3{
+    width: 272px;
+    height: auto;
+    font-size: 24px;
+    text-align: left;
+  }
+  .ekno{
+    display: flex;
+    flex-direction: row;
+    width: 272px;
+    height: 176px;
+    padding: 24px 0px 0px;
+    font-size: 16px;
+    text-align: left;
+  }
+  .duino{
+    width: 45px;
+    height: 152px;
+  }
+  .duino img{
+    width: 30px;
+    height: 30px;
+  }
+  .teno{
+    width: 226px;
+    height: 152px;
+    padding: 0px 0px 0px 24px;
+  }
+  .teno h5{
+    width: 202px;
+    height: auto;
+    font-size: 16px;
+  }
+  .teno p{
+    width: 202px;
+    height: 128px;
+    font-size: 16px;
+    color: #9092A3;
+    padding: 8px 0px 0px;
+  }
+  .see{
+    width: 272px;
+    height: 24px;
+    margin: 40px 0px 0px;
+    font-size: 16px;
+    display: flex;
+    color: #0073ff;
+    cursor: pointer;
+  }
+  .see h5{
+    font-size: 16px;
+  }
+  .bom p{
+    width: 272px;
+    height: 96px;
+    transform: translateX(-30%);
+    font-size: 16px;
+  }
+  .bom h2{
+    width: 272px;
+    height: auto;
+    font-size: 28px;
+  }
+  .bom{
+    width: 272px;
+    height: auto;
+    transform: translateX(10%);
+  }
+  .com{
+    width: 320px;
+    height: auto;
+  }
+}
 
 
 
