@@ -1967,6 +1967,9 @@ h5{
   padding: 16px 4px;
   text-decoration: none;
 }
+.stick-i:hover{
+  color: #0073ff;
+}
 .stick-i{
   width: 284px;
   height: 36px;
